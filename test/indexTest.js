@@ -56,6 +56,8 @@ describe("index.js", () => {
       })
 
       it("calculates 1 + 3", function() {
+        console.log("ASLKDJFHAISDUHFA;WEIHJRA;")
+        console.log(Calculator)
         expect(Calculator.add(1,3)).to.equal(4)
       })
     })
